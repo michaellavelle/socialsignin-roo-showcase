@@ -249,6 +249,12 @@
 			<version>1.0.2-SNAPSHOT</version>
 		</dependency>
 		<!-- End SocialSignin dependencies -->
+		<!-- Spring Social JPA dependency -->
+		<dependency>
+			<groupId>org.springframework.social</groupId>
+  			<artifactId>jpa</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-core</artifactId>
