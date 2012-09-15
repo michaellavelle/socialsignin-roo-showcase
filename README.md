@@ -17,9 +17,9 @@ to help developers to get up and running quickly:
 instead of using the Jdbc versions in the spring-social-core library.  
 
 In addition to the SocialSignin modules, this project uses the JpaUsersConnectionRepository from
-<a href="https://github.com/mschipperheyn/spring-social-jpa" target="_blank">spring-social-jpa</a>. Please note that this is to
-demonstrate spring-social-jpa in this example, however when Roo is being used as persistence mechanism there is no
-need to use spring-social-jpa as the spring-social-roo-connectionrepository implementations can be used instead.
+<a href="https://github.com/mschipperheyn/spring-social-jpa" target="_blank">spring-social-jpa</a>. Please note that this is only to
+demonstrate the use of spring-social-jpa - when Roo is being used as the jpa persistence mechanism there is actually no
+need to use spring-social-jpa, as the spring-social-roo-connectionrepository implementations can be used instead.
 
 To run this application:
 
