@@ -1,3 +1,15 @@
+Please note that this is a fork of the socialsignin-roo-showcase at https://github.com/socialsignin/socialsignin-roo-showcase with a number of modifications for demonstration purposees.
+
+1) Spring Social JPA implementation of UsersConnectionRepository is used in order to demonstrate Spring Social JPA. 
+   When Roo is used as persistence mechanaism, spring-social-roo-connectionrepository implementations can be used
+   directly, in which case spring-social-jpa is not required.  For this example, as we wish to demonstrate Spring
+   Social Jpa, we have provided Spring Social JPA adapters which delegate to the underlying spring-social-roo-connectionrepository
+   components.
+   
+2) XML configuration for Spring Social Components is used instead of Java Config, so we can demonstrate 
+Spring-Social-JPA with XML config.
+
+
 socialsignin-roo-showcase
 =========================
 
@@ -23,7 +35,7 @@ need to use spring-social-jpa, as the spring-social-roo-connectionrepository imp
 
 To run this application:
 
-- Get the code: git clone https://github.com/socialsignin/socialsignin-roo-showcase.git
+- Get the code: git clone https://github.com/michaellavelle/socialsignin-roo-showcase.git
 - <a href="https://dev.twitter.com/apps">Register a Twitter application</a> and add your Consumer key and Consumer secret to 
 <a href="https://github.com/socialsignin/socialsignin-roo-showcase/blob/master/src/main/resources/org/socialsignin/roo/showcase/socialsignin.properties">socialsignin.properties</a>
 - mvn jetty:run , go to <a target="_blank" href="http://localhost:8080/socialsignin-roo-showcase">http://localhost:8080/socialsignin-roo-showcase</a>, then click on the "Start Showcase" link from the homepage.
